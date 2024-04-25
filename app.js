@@ -115,7 +115,7 @@ gsap.from("#newslater", {
     scrollTrigger:{
         trigger:"#newslater",
         scroller:"body",
-        markers:true,
+        // markers:true,
          start:"top 70%",
          end:"top 70%",
          scrub:2,

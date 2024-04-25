@@ -457,8 +457,16 @@ margin: 10px 0;
 #footer .cont_info .social_icon a{
   text-decoration: none;
 }
+#footer .cont_info .social_icon {
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
 #footer .cont_info .social_icon a{
-  border-radius: 50%;
   border: 1px solid #c9c7c7;
   padding: 10px;
   margin-right: 10px;
@@ -466,6 +474,7 @@ margin: 10px 0;
  z-index: 99999;
  overflow: hidden;
  transition: all 0.3s ease;
+ border-radius: 5px;
 }
 #footer .cont_info .social_icon a:hover{
  color: #fff;
@@ -474,7 +483,7 @@ margin: 10px 0;
  content:"";
  width:0%;
  height:0%;
- border-radius: 50%;
+
  background-color: #088178;
  position: absolute;
  left: 0;
