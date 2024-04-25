@@ -5,25 +5,14 @@
 const mobile_menu = document.getElementById("mobile_menu");
 const nav_item = document.getElementById("nav_item");
 const close_btn = document.getElementById("close_btn");
+
+//add click event on menu btn;
 mobile_menu.addEventListener("click", ()=>{
     nav_item.style.right = "0";
 })
 close_btn.addEventListener("click", ()=>{
     nav_item.style.right = "-100%";
 });
-
- 
-
-
-
-
-
-
-
-
-
-
-
 
 
 
